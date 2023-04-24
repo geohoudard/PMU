@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <title>Aux 2 amis - courses épiques</title>
-    <script src="js/script.js"></script>
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
@@ -19,10 +18,10 @@
     </header>
     <main>
       <section class="banner">
-        <h2>Préparez vos paris !</h2>
+        <h2>Faites vos paris !</h2>
       </section>
       <section class="form">
-        <form action="#" method="post">
+        <form action="#" method="post" id="bet-form">
           <label for="player1">Joueur 1 :</label>
           <input type="text" id="player1" name="player1">
           <label for="num1">Numéro :</label>
@@ -40,5 +39,29 @@
     <footer>
       <p>Ce site est la propriété non-exclusive de la FIDO - 2023</p>
     </footer>
+    <script>
+      // Récupération du formulaire
+      const form = document.getElementById('bet-form');
+
+      // Événement de soumission du formulaire
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        // Récupération des données du formulaire
+        const player1 = document.getElementById('player1').value;
+        const num1 = document.getElementById('num1').value;
+        const player2 = document.getElementById('player2').value;
+        const num2 = document.getElementById('num2').value;
+
+        // Stockage des données dans les cookies
+        document.cookie = `player1=${player1}`;
+        document.cookie = `num1=${num1}`;
+        document.cookie = `player2=${player2}`;
+        document.cookie = `num2=${num2}`;
+
+        // Redirection vers la page de classement
+        window.location.href = 'classement.html';
+      });
+    </script>
   </body>
 </html>
