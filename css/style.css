@@ -58,6 +58,10 @@ nav a:hover {
 
 .banner h2 {
   margin: 0;
+  background-color: #A9A9A9;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
 }
 
 /* Style du formulaire */
