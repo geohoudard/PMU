@@ -2,47 +2,75 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aux 2 amis : courses épiques</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Au Galop ! - Le site de paris entre amis</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-  <div class="banner">
-    <h1>Site de paris entre amis</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Au galop !</a></li>
-        <li><a href="#">Le guichet</a></li>
-        <li><a href="#">Classement</a></li>
-      </ul>
-    </nav>
-  </div>
-  </header>
-  
+      <h1>Au Galop !</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Au galop !</a></li>
+          <li><a href="#">Le guichet</a></li>
+          <li><a href="#">Classement</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-  <form>
-  <label for="joueur1">Joueur 1 :</label>
-  <input type="text" id="joueur1" name="joueur1"><br><br>
+      <section class="banner">
+        <img src="horse-racing.jpg" alt="Course hippique">
+        <h2>Préparez vos paris !</h2>
+      </section>
+      <section class="form">
+        <form action="#" method="post">
+          <label for="player1">Joueur 1 :</label>
+          <input type="text" id="player1" name="player1">
+          <label for="num1">Numéro :</label>
+          <input type="number" id="num1" name="num1" min="1" max="10"><br>
 
-  <label for="numero1">Numéro associé :</label>
-  <input type="number" id="numero1" name="numero1"><br><br>
+          <label for="player2">Joueur 2 :</label>
+          <input type="text" id="player2" name="player2">
+          <label for="num2">Numéro :</label>
+          <input type="number" id="num2" name="num2" min="1" max="10"><br>
 
-  <label for="joueur2">Joueur 2 :</label>
-  <input type="text" id="joueur2" name="joueur2"><br><br>
+          <label for="player3">Joueur 3 :</label>
+          <input type="text" id="player3" name="player3">
+          <label for="num3">Numéro :</label>
+          <input type="number" id="num3" name="num3" min="1" max="10"><br>
 
-  <label for="numero2">Numéro associé :</label>
-  <input type="number" id="numero2" name="numero2"><br><br>
+          <label for="player4">Joueur 4 :</label>
+          <input type="text" id="player4" name="player4">
+          <label for="num4">Numéro :</label>
+          <input type="number" id="num4" name="num4" min="1" max="10"><br>
 
-  <!-- Ajoutez autant de champs que nécessaire pour tous les joueurs -->
+          <label for="player5">Joueur 5 :</label>
+          <input type="text" id="player5" name="player5">
+          <label for="num5">Numéro :</label>
+          <input type="number" id="num5" name="num5" min="1" max="10"><br>
+
+          <label for="player6">Joueur 6 :</label>
+          <input type="text" id="player6" name="player6">
+          <label for="num6">Numéro :</label>
+          <input type="number" id="num6" name="num6" min="1" max="10"><br>
+
+          <label for="player7">Joueur 7 :</label>
+          <input type="text" id="player7" name="player7">
+          <label for="num7">Numéro :</label>
+          <input type="number" id="num7" name="num7" min="1" max="10"><br>
+
+          <label for="player8">Joueur 8 :</label>
+          <input type="text" id="player8" name="player8">
+          <label for="num8">Numéro :</label>
+          <input type="number" id="num8" name="num8" min="1" max="10"><br>
+        <form>
 
   <input type="submit" value="Valider">
-</form>
 
     </main>
 
-    <footer>
-      <!-- Ajoutez votre pied de page ici -->
+    <footer style="background-color: green;">
+  <p>Ce site est la propriété non-exclusive de la FIDO - 2023</p>
     </footer>
+
   </body>
 </html>
