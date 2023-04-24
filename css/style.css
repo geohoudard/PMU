@@ -18,3 +18,40 @@ body {
   background-color: #FF6600;
   height: 50px;
 }
+.banner {
+  background-color: #003366;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.banner h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.banner nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.banner nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.banner nav ul li:first-child {
+  margin-left: 0;
+}
+
+.banner nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.banner nav ul li a:hover {
+  text-decoration: underline;
+}
