@@ -1,51 +1,99 @@
-#header {
-  background-color: #FF6600;
-  height: 100px;
+/* CSS pour la page d'accueil */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5F5;
 }
 
-#content {
-  background-color: #FFFFFF;
+header {
+  background-color: #333;
+  color: #fff;
   padding: 20px;
 }
 
-#footer {
-  background-color: #FF6600;
-  height: 50px;
-}
-.banner {
-  background-color: #003366;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-}
-
-.banner h1 {
+h1 {
   font-size: 36px;
   margin: 0;
 }
 
-.banner nav ul {
+nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.banner nav ul li {
+nav li {
   display: inline-block;
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
-.banner nav ul li:first-child {
-  margin-left: 0;
-}
-
-.banner nav ul li a {
-  color: white;
+nav a {
+  color: #fff;
   text-decoration: none;
 }
 
-.banner nav ul li a:hover {
+nav a:hover {
   text-decoration: underline;
+}
+
+.banner {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #555;
+}
+/* CSS pour le pied de page */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
 }
