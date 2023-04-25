@@ -19,6 +19,6 @@
     document.cookie = `num2=${num2}`;
 
     // Redirection vers la page de classement
-    window.location.href = 'classement.html';
+    window.location.href = 'index.html';
   });
 </script>
