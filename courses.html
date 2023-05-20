@@ -21,26 +21,11 @@
     <main>
         <h2>Courses disponibles</h2>
         <section class="course-list">
-            <div id="player"></div>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLkrOD5l3IOwyc5ygbX-jqkbt8KNkKdn-8" frameborder="0" allowfullscreen></iframe>
         </section>
     </main>
     <footer>
         <p>Ce site est la propriété non-exclusive de la FIDO - 2023</p>
     </footer>
-
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script>
-        function onYouTubeIframeAPIReady() {
-            var player = new YT.Player('player', {
-                height: '315',
-                width: '560',
-                videoId: 'ME20eBbsXJw',
-                playerVars: {
-                    listType: 'playlist',
-                    list: 'PLkrOD5l3IOwyc5ygbX-jqkbt8KNkKdn-8'
-                }
-            });
-        }
-    </script>
 </body>
 </html>
