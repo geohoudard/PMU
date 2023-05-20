@@ -126,6 +126,17 @@ main {
     padding-left: 20px;
 }
 
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
