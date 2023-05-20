@@ -14,9 +14,18 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #333;
     color: #fff;
     padding: 20px;
+    z-index: 100;
+}
+
+main {
+    padding-top: 80px; /* Ajoutez cette ligne pour compenser la hauteur du bandeau fixe */
 }
 
 h1 {
