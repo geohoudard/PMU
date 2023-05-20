@@ -1,0 +1,115 @@
+/* styles.css */
+
+/* Réinitialisation des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.banner {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.banner h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.featured-courses {
+    margin-bottom: 40px;
+}
+
+.featured-courses h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.course-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.course-card h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.course-card p {
+    color: #888;
+}
+
+.course-card a {
+    color: #333;
+    text-decoration: none;
+}
+
+.how-to-bet {
+    margin-bottom: 40px;
+}
+
+.how-to-bet h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.how-to-bet ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
