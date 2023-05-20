@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aux 2 amis - Courses épiques !</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="https://www.youtube.com/iframe_api"></script>
 </head>
 <body>
     <header>
@@ -22,28 +21,26 @@
     <main>
         <h2>Courses disponibles</h2>
         <section class="course-list">
-            <div id="player">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/ME20eBbsXJw?list=PLkrOD5l3IOwyc5ygbX-jqkbt8KNkKdn-8" frameborder="0" allowfullscreen></iframe>
-            </div>
+            <div id="player"></div>
         </section>
     </main>
     <footer>
         <p>Ce site est la propriété non-exclusive de la FIDO - 2023</p>
     </footer>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script>
-    // Fonction d'initialisation de l'API YouTube
-    function onYouTubeIframeAPIReady() {
-        // Créer le lecteur vidéo
-        var player = new YT.Player('player', {
-            height: '315',
-            width: '560',
-            videoId: 'ME20eBbsXJw', // ID de la vidéo YouTube
-            playerVars: {
-                listType: 'playlist',
-                list: 'PLkrOD5l3IOwyc5ygbX-jqkbt8KNkKdn-8' // ID de la playlist YouTube
-            }
-        });
-    }
-</script>
+        function onYouTubeIframeAPIReady() {
+            var player = new YT.Player('player', {
+                height: '315',
+                width: '560',
+                videoId: 'ME20eBbsXJw',
+                playerVars: {
+                    listType: 'playlist',
+                    list: 'PLkrOD5l3IOwyc5ygbX-jqkbt8KNkKdn-8'
+                }
+            });
+        }
+    </script>
 </body>
 </html>
